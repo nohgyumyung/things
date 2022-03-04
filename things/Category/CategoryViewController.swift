@@ -64,7 +64,20 @@ extension CategoryViewController: UITableViewDataSource {
 }
 
 extension CategoryViewController: UITableViewDelegate {
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var vc: UIViewController
+        
+        switch indexPath.row {
+        case 0:
+            vc = ColorPickerViewController()
+        default:
+            fatalError()
+        }
+        
+        vc.title = categories[indexPath.row].name
+        categoryTableView.deselectRow(at: indexPath, animated: false)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
 class CategoryCell: UITableViewCell {

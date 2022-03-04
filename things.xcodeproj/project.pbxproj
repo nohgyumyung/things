@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893E10E327D20DB600A82740 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E10E227D20DB600A82740 /* ColorPickerViewController.swift */; };
 		89D1340427CFBC58002EFFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1340327CFBC58002EFFFD /* AppDelegate.swift */; };
 		89D1340627CFBC58002EFFFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1340527CFBC58002EFFFD /* SceneDelegate.swift */; };
 		89D1340D27CFBC5A002EFFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D1340C27CFBC5A002EFFFD /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		893E10E227D20DB600A82740 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		89D1340027CFBC58002EFFFD /* things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = things.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D1340327CFBC58002EFFFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89D1340527CFBC58002EFFFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		893E10E127D20D8E00A82740 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				893E10E227D20DB600A82740 /* ColorPickerViewController.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		893E10E427D20DD200A82740 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				89D1341E27D0AE5D002EFFFD /* Category.swift */,
+				89D1341727CFBE10002EFFFD /* CategoryViewController.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		89D133F727CFBC58002EFFFD = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +79,8 @@
 			children = (
 				89D1340327CFBC58002EFFFD /* AppDelegate.swift */,
 				89D1340527CFBC58002EFFFD /* SceneDelegate.swift */,
-				89D1341E27D0AE5D002EFFFD /* Category.swift */,
-				89D1341727CFBE10002EFFFD /* CategoryViewController.swift */,
+				893E10E427D20DD200A82740 /* Category */,
+				893E10E127D20D8E00A82740 /* ColorPicker */,
 				89D1340C27CFBC5A002EFFFD /* Assets.xcassets */,
 				89D1340E27CFBC5A002EFFFD /* LaunchScreen.storyboard */,
 				89D1341127CFBC5A002EFFFD /* Info.plist */,
@@ -145,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893E10E327D20DB600A82740 /* ColorPickerViewController.swift in Sources */,
 				89D1341827CFBE10002EFFFD /* CategoryViewController.swift in Sources */,
 				89D1340427CFBC58002EFFFD /* AppDelegate.swift in Sources */,
 				89D1340627CFBC58002EFFFD /* SceneDelegate.swift in Sources */,
