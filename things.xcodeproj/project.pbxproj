@@ -9,21 +9,22 @@
 /* Begin PBXBuildFile section */
 		89D1340427CFBC58002EFFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1340327CFBC58002EFFFD /* AppDelegate.swift */; };
 		89D1340627CFBC58002EFFFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1340527CFBC58002EFFFD /* SceneDelegate.swift */; };
-		89D1340B27CFBC58002EFFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D1340927CFBC58002EFFFD /* Main.storyboard */; };
 		89D1340D27CFBC5A002EFFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D1340C27CFBC5A002EFFFD /* Assets.xcassets */; };
 		89D1341027CFBC5A002EFFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D1340E27CFBC5A002EFFFD /* LaunchScreen.storyboard */; };
 		89D1341827CFBE10002EFFFD /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1341727CFBE10002EFFFD /* CategoryViewController.swift */; };
+		89D1341D27CFD53F002EFFFD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 89D1341C27CFD53F002EFFFD /* SnapKit */; };
+		89D1341F27D0AE5D002EFFFD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1341E27D0AE5D002EFFFD /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		89D1340027CFBC58002EFFFD /* things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = things.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D1340327CFBC58002EFFFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89D1340527CFBC58002EFFFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89D1340A27CFBC58002EFFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89D1340C27CFBC5A002EFFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D1340F27CFBC5A002EFFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89D1341127CFBC5A002EFFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D1341727CFBE10002EFFFD /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		89D1341E27D0AE5D002EFFFD /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D1341D27CFD53F002EFFFD /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +60,8 @@
 			children = (
 				89D1340327CFBC58002EFFFD /* AppDelegate.swift */,
 				89D1340527CFBC58002EFFFD /* SceneDelegate.swift */,
+				89D1341E27D0AE5D002EFFFD /* Category.swift */,
 				89D1341727CFBE10002EFFFD /* CategoryViewController.swift */,
-				89D1340927CFBC58002EFFFD /* Main.storyboard */,
 				89D1340C27CFBC5A002EFFFD /* Assets.xcassets */,
 				89D1340E27CFBC5A002EFFFD /* LaunchScreen.storyboard */,
 				89D1341127CFBC5A002EFFFD /* Info.plist */,
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = things;
+			packageProductDependencies = (
+				89D1341C27CFD53F002EFFFD /* SnapKit */,
+			);
 			productName = things;
 			productReference = 89D1340027CFBC58002EFFFD /* things.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 89D133F727CFBC58002EFFFD;
+			packageReferences = (
+				89D1341B27CFD53F002EFFFD /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 89D1340127CFBC58002EFFFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +135,6 @@
 			files = (
 				89D1341027CFBC5A002EFFFD /* LaunchScreen.storyboard in Resources */,
 				89D1340D27CFBC5A002EFFFD /* Assets.xcassets in Resources */,
-				89D1340B27CFBC58002EFFFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +148,13 @@
 				89D1341827CFBE10002EFFFD /* CategoryViewController.swift in Sources */,
 				89D1340427CFBC58002EFFFD /* AppDelegate.swift in Sources */,
 				89D1340627CFBC58002EFFFD /* SceneDelegate.swift in Sources */,
+				89D1341F27D0AE5D002EFFFD /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		89D1340927CFBC58002EFFFD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89D1340A27CFBC58002EFFFD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		89D1340E27CFBC5A002EFFFD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89D1341B27CFD53F002EFFFD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89D1341C27CFD53F002EFFFD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89D1341B27CFD53F002EFFFD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89D133F827CFBC58002EFFFD /* Project object */;
 }
