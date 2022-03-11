@@ -70,6 +70,8 @@ extension CategoryViewController: UITableViewDelegate {
         switch indexPath.row {
         case 0:
             vc = ColorPickerViewController()
+        case 1:
+            vc = WhatToEatViewController()
         default:
             fatalError()
         }

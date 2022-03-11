@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		893E10E327D20DB600A82740 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E10E227D20DB600A82740 /* ColorPickerViewController.swift */; };
+		893E10EC27D9F5EE00A82740 /* WhatToEatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E10EB27D9F5EE00A82740 /* WhatToEatViewController.swift */; };
+		893E10F227DA54B200A82740 /* MenuSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E10F127DA54B200A82740 /* MenuSelectionViewController.swift */; };
 		89D1340427CFBC58002EFFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1340327CFBC58002EFFFD /* AppDelegate.swift */; };
 		89D1340627CFBC58002EFFFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1340527CFBC58002EFFFD /* SceneDelegate.swift */; };
 		89D1340D27CFBC5A002EFFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D1340C27CFBC5A002EFFFD /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		893E10E227D20DB600A82740 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		893E10EB27D9F5EE00A82740 /* WhatToEatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToEatViewController.swift; sourceTree = "<group>"; };
+		893E10F127DA54B200A82740 /* MenuSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSelectionViewController.swift; sourceTree = "<group>"; };
 		89D1340027CFBC58002EFFFD /* things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = things.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D1340327CFBC58002EFFFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89D1340527CFBC58002EFFFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		893E10EA27D9F5B000A82740 /* WhatToEat */ = {
+			isa = PBXGroup;
+			children = (
+				893E10EB27D9F5EE00A82740 /* WhatToEatViewController.swift */,
+				893E10F127DA54B200A82740 /* MenuSelectionViewController.swift */,
+			);
+			path = WhatToEat;
+			sourceTree = "<group>";
+		};
 		89D133F727CFBC58002EFFFD = {
 			isa = PBXGroup;
 			children = (
@@ -77,10 +90,11 @@
 		89D1340227CFBC58002EFFFD /* things */ = {
 			isa = PBXGroup;
 			children = (
-				89D1340327CFBC58002EFFFD /* AppDelegate.swift */,
-				89D1340527CFBC58002EFFFD /* SceneDelegate.swift */,
+				893E10EA27D9F5B000A82740 /* WhatToEat */,
 				893E10E427D20DD200A82740 /* Category */,
 				893E10E127D20D8E00A82740 /* ColorPicker */,
+				89D1340327CFBC58002EFFFD /* AppDelegate.swift */,
+				89D1340527CFBC58002EFFFD /* SceneDelegate.swift */,
 				89D1340C27CFBC5A002EFFFD /* Assets.xcassets */,
 				89D1340E27CFBC5A002EFFFD /* LaunchScreen.storyboard */,
 				89D1341127CFBC5A002EFFFD /* Info.plist */,
@@ -164,6 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893E10EC27D9F5EE00A82740 /* WhatToEatViewController.swift in Sources */,
+				893E10F227DA54B200A82740 /* MenuSelectionViewController.swift in Sources */,
 				893E10E327D20DB600A82740 /* ColorPickerViewController.swift in Sources */,
 				89D1341827CFBE10002EFFFD /* CategoryViewController.swift in Sources */,
 				89D1340427CFBC58002EFFFD /* AppDelegate.swift in Sources */,

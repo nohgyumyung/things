@@ -16,7 +16,8 @@ class CategoryList {
     static let shared = CategoryList()
     
     let categoryList: [Category] = [
-        Category(name: "Color Picker", description: "버튼을 클릭하면 랜덤 RGB값을 추출하여 색상을 보여줌")
+        Category(name: "Color Picker", description: "버튼을 클릭하여 랜덤 RGB값의 색상 추출"),
+        Category(name: "What To Eat", description: "카테고리 선택을 통해 무엇을 먹을지 추천")
     ]
     
     private init() { }
